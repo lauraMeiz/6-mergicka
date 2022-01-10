@@ -9,7 +9,7 @@ header {
   margin-left: calc(50% - 400px);
   background-color: yellow;
 }
-img {
+header > img {
   float: left;
 }
 nav {
@@ -36,6 +36,6 @@ h1 {
 p {
 }
 
-img {
+main > img {
   float: right;
 }
