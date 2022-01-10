@@ -1,21 +1,33 @@
 body {
-  background-color: yellow;
+  margin: 0;
+  background-color: #f8f8f8;
 }
 
 header {
+  display: inline-block;
+  width: 800px;
+  margin-left: calc(50% - 400px);
+  background-color: yellow;
 }
 img {
+  float: left;
 }
 nav {
+  float: right;
 }
 
 a {
   background-color: red;
 }
 main {
+  display: inline-block;
+  width: 800px;
+  margin-left: calc((100% - 800px) / 2);
+  background-color: pink;
 }
 
 div {
+  float: left;
 }
 
 h1 {
@@ -25,4 +37,5 @@ p {
 }
 
 img {
+  float: right;
 }
