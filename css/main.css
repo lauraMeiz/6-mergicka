@@ -4,30 +4,50 @@ body {
 }
 
 header {
-  display: inline-block;
-  width: 800px;
-  margin-left: calc(50% - 400px);
+  margin-top: 25px;
+  float: left;
+  width: 1000px;
+  margin-left: calc(50% - 500px);
   background-color: yellow;
 }
 header > img {
   float: left;
+  /* width: 150px;*/
+  height: 60px;
+  object-fit: contain;
+  background-color: blue;
+  object-position: left;
 }
 nav {
   float: right;
 }
-
-a {
-  background-color: red;
+nav > a {
+  display: inline-block;
+  padding: 5px;
+  padding-left: 20px;
+  padding-left: 20px;
+  border-width: 5px;
+  border-style: solid;
+  /*border-color: transparent;*/
+  /*border-color: blue;*/
+}
+nav > a:last-of-type {
+  margin-left: 15px;
+  border-color: red;
 }
 main {
-  display: inline-block;
-  width: 800px;
-  margin-left: calc((100% - 800px) / 2);
+  margin-top: 25px;
+  float: left;
+  width: 1000px;
+  margin-left: calc((100% - 1000px) / 2);
   background-color: pink;
 }
 
 div {
   float: left;
+  width: 42%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 h1 {
@@ -38,4 +58,7 @@ p {
 
 main > img {
   float: right;
+  width: 50%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
