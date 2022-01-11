@@ -41,20 +41,24 @@ main {
   float: left;
   width: 1000px;
   margin-left: calc((100% - 1000px) / 2);
-  background-color: pink;
 }
 
 div {
   float: left;
-  width: 42%;
+  width: 40%;
+  margin-top: 100px;
   margin-left: 2%;
-  margin-right: 2%;
+  margin-right: 3%;
 }
 
 h1 {
+  margin: 0;
+  font-size: 100px;
 }
 
 p {
+  margin: 0;
+  font-size: 30px;
 }
 
 main > img {
