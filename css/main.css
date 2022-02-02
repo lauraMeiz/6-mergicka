@@ -14,10 +14,8 @@ body {
 .container {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
   width: 100%;
-  padding: 70px 0;
+  padding: 60px 0;
   position: absolute;
 }
 
@@ -30,17 +28,18 @@ body {
 }
 
 .logo {
+  display: flex;
   height: 60px;
-  width: 30%;
+  width: 15%;
   object-fit: contain;
   object-position: left;
 }
 .main-nav {
   flex-direction: row;
   margin-top: 11px;
-  justify-content: center;
+  justify-content: end;
   width: 70%;
-  flex-wrap: wrap;
+
   display: flex;
 }
 .menu-link {
@@ -73,6 +72,9 @@ body {
   margin-top: 100px;
   margin-left: 2%;
   margin-right: 3%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .title {
